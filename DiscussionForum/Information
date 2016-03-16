@@ -1,0 +1,3 @@
+To run this project, you need to have an application server platform, eg: WampServer.
+Open the html files in the localhost of that server side application and start running the program.
+The logic used is very simple and no such importance has been given to the HTML/CSS part; it can be edited as per the need.
