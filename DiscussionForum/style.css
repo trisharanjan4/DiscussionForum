@@ -1,0 +1,30 @@
+body {
+		background: url('Images/3.jpg') no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		color: #000305;
+		font-size: 100%; /*Base font size is 14px */
+		font-family: Arial, 'Lucida Sans Unicode';
+		line-height: 1.5;
+		text-align: justify;
+	}
+a {
+	color: #999999;
+    text-decoration: none;
+    text-align: center;
+}
+a: link, a: visited {
+					color: #CF5C3F;
+				}
+		
+a:hover, a:active{
+					color: #CF5C3F;
+				}
+.table{
+    text-align: center;
+}
+h4{
+    text-align: center;
+}

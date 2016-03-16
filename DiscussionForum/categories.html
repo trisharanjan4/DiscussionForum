@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>discussion forum-categories page</title>
+<link href="style.css" rel="stylesheet" title="Style" />
+<script type="text/javascript">
+</script>
+</head>
+<body bgcolor=#666699 text=white>
+<a href="login.html"><h5 align="right">Logout</h5></a>
+<form name=frm2 action="categories(forum).php" method=post>
+<table align="center" width='100' cellpadding='4' cellspacing='4' align='center' style="padding-top: 5%;">
+<tr><th colspan=6 align='center'><h1><b>Add New Category</b></h1></th></tr>
+<tr><td width='30' height='30'><b>Name:</b></td><td><input type=text name='cat'/></td></tr>
+<tr><td width='30' height='30'><b>ID:</b></td><td><input type=text name='id' placeholder="Enter ID as 5"/></td></tr>
+<tr><td width='30' height='30'><b>Description:</b></td><td><textarea name='desc' cols='24' rows='15'></textarea></td></tr>
+<tr><td colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input name='save' type='submit' value='Save Categories to DB'> </td></tr>
+<tr></tr><td colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type='submit' name='show' value='Show existing categories'></td></tr>
+</table>
+</form>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+	<meta name="author" content="" />
+
+	<title>Untitled 2</title>
+</head>
+
+<body>
+
+<h1>Administrator Page</h1>
+<?php
+    $link=mysqli_connect("localhost","root","","DiscussionForum");
+    $qry="select * from category";
+    $resultset=mysqli_query($link,$qry);
+    $count=0;
+    while($res=mysqli_fetch_row($resultset))
+    {
+        
+        //if($count%2==0)
+            echo "<tr style=background-color:lightgrey;><td>$res[0]</td><td>$res[1]</td><td>$res[2]</td></tr>";
+        /*else
+            echo "<tr style=background-color:grey;><td>$res[0]</td><td>$res[1]</td><td>$res[2]</td><td>$res[3]</td><td>$res[4]</td><td>$res[5]</td><td>$res[6]</td><td>$res[7]</td><td>$res[8]</td><td>$res[9]</td><td><a href=editpage.php?id=$res[0]>Edit</a></td><td><a href=deletepage.php?id1=$res[0]>Delete</a></td><td><a href=deletepage.php?id2=$res[0]>Select</a></td></tr>";
+        
+        $count++;*/
+    }
+?>
+</body>
+</html>
